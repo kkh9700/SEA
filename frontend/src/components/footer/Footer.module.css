@@ -1,0 +1,25 @@
+.bg {
+    background-color: rgb(12, 32, 50);
+  }
+
+.write {
+  margin-top: 10rem;
+  color: rgb(214, 214, 219);
+}
+
+a:link {
+  color : rgb(214, 214, 219);
+}
+a:visited {
+  color : rgb(214, 214, 219);
+}
+a:hover {
+  color : rgb(206, 118, 213);
+}
+a:active {
+  color : rgb(176, 164, 182)
+}
+
+e:hover {
+  color : rgb(206, 118, 213);
+}

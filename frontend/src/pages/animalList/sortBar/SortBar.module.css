@@ -1,0 +1,50 @@
+.sortBar {
+  width: auto;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0rem;
+  margin-top: 1rem;
+}
+
+.sortBar_setting {
+  width: 90%;
+  height: 4rem;
+  background-color: rgba(251, 251, 251, 0.3);
+  box-shadow: 0px 0px 5px 0px rgb(197, 197, 197) inset;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+
+.button {
+  font-size: medium;
+  background-color: rgb(43, 43, 68);
+  color: #ffffff;
+  border: none;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 30px;
+  width: 150px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.button:hover {
+  background-color: rgb(113, 53, 137);
+  color : #fae3f1;
+  transition: 1s;
+  /* transform: scale(1.2); */
+}

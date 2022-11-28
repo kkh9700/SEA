@@ -1,0 +1,17 @@
+.CarouselImagesBox {
+  border-radius: 1rem;
+  background-color: rgba(251, 251, 251, 0.1);
+  box-shadow: 0px 0px 5px 2px rgb(197, 197, 197) inset;
+  padding: 2rem 1rem 2rem 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.AnimalImage {
+  width: 55rem;
+  height: 31rem;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 1rem;
+  display: block;
+  margin: auto;
+}

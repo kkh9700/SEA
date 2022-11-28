@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Bareun_hipi";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_01@1.0/Bareun_hipi.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ExpressionPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bareun_hipi";
+  font-size: 1.5rem;
+  padding-top: 0.2rem;
+  margin-bottom: 5rem;
+}
+
+.tempButtonUp {
+  position: fixed;
+  bottom: 3rem;
+  right: 2rem;
+}
+.tempButtonDown {
+  position: fixed;
+  bottom: 3rem;
+  right: 5rem;
+}

@@ -1,0 +1,18 @@
+.Card {
+  border: none;
+
+  flex-direction: column;
+  box-shadow: 3;
+  display: flex;
+  height: 100%;
+}
+
+.selectedCard {
+  border: 5px solid #73c0ff;
+  border-radius: 1rem;
+
+  flex-direction: column;
+  box-shadow: 3;
+  display: flex;
+  height: 100%;
+}

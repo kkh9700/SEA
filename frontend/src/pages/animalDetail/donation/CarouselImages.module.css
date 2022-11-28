@@ -1,0 +1,9 @@
+.AnimalImage {
+  width: 30rem;
+  height: 19rem;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 1rem;
+  display: block;
+  margin: auto;
+}

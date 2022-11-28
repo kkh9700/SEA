@@ -1,0 +1,145 @@
+.imageBox {
+  position: relative;
+  height: 1rem;
+}
+
+.mainImage {
+  position: absolute;
+  height: 25rem;
+}
+
+.imageBox > .mainImage {
+  bottom: 1rem;
+  opacity: 0.5;
+  transform: translate(-50%, 0);
+  filter: brightness(0.3) blur(2px);
+  transition: filter 0.5s;
+}
+
+.mainMiddleColumn:nth-child(1) > .mainImage {
+  filter: brightness(0.3) blur(2px);
+  transition: filter 0.5s;
+  opacity: 0.5;
+}
+
+.mainMiddleColumn:nth-child(3) > .mainImage {
+  filter: brightness(0.3) blur(2px);
+  transition: filter 0.5s;
+  opacity: 0.5;
+}
+
+.mainImage:hover {
+  filter: brightness(0.7) blur(0);
+}
+
+.mainMiddleColumn > .mainImage:hover {
+  filter: brightness(0.7) blur(0);
+}
+
+@media (min-width: 1600px) {
+  .mainMiddleColumn:nth-child(1) > .mainImage {
+    top: 4rem;
+    right: 4rem;
+  }
+  .mainMiddleColumn:nth-child(3) > .mainImage {
+    left: 5rem;
+    top: 4rem;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .mainMiddleColumn:nth-child(1) > .mainImage {
+    top: 4rem;
+    right: 0rem;
+  }
+  .mainMiddleColumn:nth-child(3) > .mainImage {
+    top: 4rem;
+    left: 0rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .mainMiddleColumn:nth-child(1) > .mainImage {
+    top: 0rem;
+    right: -5rem;
+  }
+  .mainMiddleColumn:nth-child(3) > .mainImage {
+    top: 0rem;
+    left: -5rem;
+  }
+}
+
+@keyframes main-animation2 {
+  from {
+    filter: brightness(0.4) blur(2px);
+  }
+  to {
+    filter: brightness(0.5) blur(0);
+  }
+}
+
+@keyframes main-animation3 {
+  from {
+    filter: brightness(0.4) blur(2px);
+  }
+  to {
+    filter: brightness(0.5) blur(0);
+  }
+}
+
+.mainMiddle {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.mainMiddleColumn:nth-child(1) {
+  width: 25%;
+  position: relative;
+}
+.mainMiddleColumn:nth-child(3) {
+  position: relative;
+  width: 25%;
+}
+.mainMiddleColumn:nth-child(2) {
+  position: relative;
+  bottom: 1rem;
+  width: 50%;
+  min-width: 570px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 중앙 문구 */
+.mainText:nth-child(1) {
+  font-weight: bolder;
+  width: 250%;
+  font-size: 3.3rem;
+  margin-bottom: 3rem;
+  color: #d3e0ea;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: color 1.5s, text-shadow 1.5s;
+}
+
+.mainText:nth-child(1):hover {
+  color: #d3e0ea;
+  text-shadow: none;
+}
+
+.mainText:nth-child(2) > button {
+  font-size: xx-large;
+  font-weight: 900;
+  background-color: #d3e0ea;
+  border-radius: 15px;
+  border: none;
+  padding: 1rem;
+  transition: filter 1.5s, color 1.5s, background-color 1.5s, border 1.5s;
+}
+
+/* 버튼 */
+.mainText:nth-child(2) > button:hover {
+  filter: none;
+  background-color: rgba(134, 114, 169);
+  color: #d3e0ea;
+}

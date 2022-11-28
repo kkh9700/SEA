@@ -1,0 +1,111 @@
+.Title {
+  background-color: rgba(251, 251, 251, 0.1);
+  box-shadow: 0px 0px 5px 2px rgb(197, 197, 197) inset;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+}
+
+.animalClass {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: #e7e7e7;
+  margin-bottom: 0.5rem;
+}
+
+.animalName {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 42px;
+  text-align: center;
+  color: #e7e7e7;
+}
+
+.Info {
+  padding: 0.5rem 3rem;
+  background-color: rgba(251, 251, 251, 0.1);
+  box-shadow: 0px 0px 5px 2px rgb(197, 197, 197) inset;
+  border-radius: 1rem;
+}
+
+.InfoTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 1rem;
+  color: #eeeef0;
+}
+
+.InfoText {
+  padding: 2rem;
+  background-color: rgb(194, 191, 198);
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  color: #000000;
+}
+
+.NFTcount {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19.0954px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #d5c7e7;
+}
+
+.donationSide {
+  text-align: center;
+}
+
+
+.button {
+  font-size: medium;
+  background-color: rgb(43, 43, 68);
+  color: #ffffff;
+  border: none;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 30px;
+  width: 150px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.button:hover {
+  background-color: aqua;
+  color: rgb(239, 94, 174);
+  transition: 1s;
+  transform: scale(1.2);
+}

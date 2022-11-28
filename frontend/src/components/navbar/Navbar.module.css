@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap");
+
+@font-face {
+  font-family: "MICEGothic Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/MICEGothic Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.logoDiv {
+  display: flex;
+  align-items: center;
+}
+
+.logoDiv:hover {
+  cursor: pointer;
+}
+
+.logo {
+  height: 3rem;
+}
+
+.logoCharacter {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+}
+
+.logoCharacter:nth-child(1) {
+  color: #286778;
+  transition: color 0.05s;
+}
+.logoCharacter:nth-child(2) {
+  color: #1787a7;
+  transition: color 0.1s;
+}
+.logoCharacter:nth-child(3) {
+  color: #d3e0ea;
+  transition: color 0.15s;
+}
+
+.logoCharacterButton:hover .logoCharacter:nth-child(1) {
+  color: #d3e0ea;
+  transition: color 0.1s;
+}
+.logoCharacterButton:hover .logoCharacter:nth-child(2) {
+  color: #1787a7;
+  transition: color 0.2s;
+}
+.logoCharacterButton:hover .logoCharacter:nth-child(3) {
+  color: #286778;
+  transition: color 0.3s;
+}
+
+.navButtonDiv {
+  min-width: 8rem;
+  width: 8%;
+  text-align: center;
+  position: relative;
+}
+
+.navButton {
+  color: #f6f5f5;
+  font-family: "MICEGothic Bold";
+  font-size: larger;
+  font-weight: 900;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  transition: color 0.5s;
+}
+
+.navButtonUnderLine {
+  position: absolute;
+  top: 1.5rem;
+  border-color: #75b870;
+  border: solid 1px #75b870;
+  border-radius: 1px;
+  background-color: #75b870;
+  display: none;
+  left: 10%;
+  right: 10%;
+}
+
+.navButton:hover + .navButtonUnderLine {
+  display: block;
+  animation-duration: 0.3s;
+  animation-name: navButtonSlide;
+}
+
+@keyframes navButtonSlide {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+.navButton:hover {
+  color: #75b870;
+  transition: color 0.1s;
+}

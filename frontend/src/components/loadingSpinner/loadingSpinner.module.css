@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+.wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 44, 57, 0.8);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.loadingGif {
+  width: 18rem;
+  height: auto;
+}
+
+.loadingText {
+  font-size: 2.5rem;
+  color: rgb(6, 0, 39);
+  font-family: "Permanent Marker", cursive;
+}

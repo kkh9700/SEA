@@ -1,0 +1,29 @@
+.myPageInfo {
+  text-align: center;
+}
+
+.title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+
+  color: #dfe3ed;
+}
+
+.nftToken {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+
+  color: #bcbaba;
+}
+
+.logoImg {
+  width: 20px;
+  height: 30px;
+  object-fit: cover;
+}
